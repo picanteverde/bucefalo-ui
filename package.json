@@ -1,0 +1,24 @@
+{
+  "name": "bucefalo-ui",
+  "title": "Bucefalo UI",
+  "description": "Bucefalo UI User Interface Framework",
+  "version": "0.1.0",
+  "homepage": "",
+  "author": {
+    "name": "Alejandro Hernández"
+  },
+  "dependencies": {
+      "connect": ">= 1.8.5",
+      "express": ">= 2.5.4",
+      "socket.io": ">= 0.9.10",
+      "node-static": ">= 0.5.9"
+  },
+  "devDependencies": {
+    "grunt": ">= 0.3.11",
+    "coverjs": ">= 0.0.6",
+    "mocha": ">= 1.1.0",
+    "mocha-coverjs": ">= 0.0.1",
+    "chai": ">= 1.0.4"
+  },
+  "keywords": []
+}
