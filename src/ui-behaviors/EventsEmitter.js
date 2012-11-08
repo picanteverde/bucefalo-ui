@@ -17,7 +17,7 @@
 	};
 
 	if(!b.behaviors){
-		b.behaviors ={};
+		b.behaviors = {};
 	}
 	b.behaviors.EventsEmitter = b.behavior(
 		'EventsEmitter',

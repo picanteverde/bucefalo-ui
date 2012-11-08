@@ -13,7 +13,9 @@ module.exports = function(grunt) {
       dist: {
         src: ['<banner:meta.banner>',
               'libs/bucefalo-base.js', 
-              'src/ui-behaviors/EventsEmitter.js'
+              'src/ui-behaviors/EventsEmitter.js',
+              'src/ui-behaviors/EventPublisher.js',
+              'src/ui-behaviors/Hooks.js'
         ],
         dest: 'dist/<%= pkg.name %>.js'
       }
